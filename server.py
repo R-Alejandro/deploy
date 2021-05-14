@@ -5,7 +5,8 @@ from os import environ
 #URL = environ['url']
 HEADER = 64
 PORT = 8080
-SERVER = socket.gethostbyname('server-union.herokuapp.com')
+#SERVER = socket.gethostbyname('server-union.herokuapp.com')
+SERVER = '0.0.0.0'
 #la url va en gethostbyname(URL)
 POOL_CLIENTES = [] #
 ADDRESS = (SERVER, PORT)
