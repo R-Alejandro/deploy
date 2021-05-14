@@ -12,7 +12,7 @@ ADDRESS = (SERVER, PORT)
 FORMAT = "utf-8"
 
 socket_servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-socket_servidor.bind(ADDRESS)
+#socket_servidor.bind(ADDRESS)
 
 def existe_username(username):
     with open("./chat/users_table.json") as file:
