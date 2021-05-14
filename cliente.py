@@ -2,7 +2,7 @@ import socket, json, time, getopt
 import threading
 HEADER = 64
 PORT = 50007
-SERVER = socket.gethostbyname(socket.gethostname())
+SERVER = socket.gethostbyname("https://server-union.herokuapp.com")
 ADDRESS = (SERVER, PORT)
 FORMAT = "utf-8"
 
