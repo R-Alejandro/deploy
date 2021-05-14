@@ -1,0 +1,12 @@
+✔ 28 abril: falta verificar que la ip ya exista en el archivo @done (30/4/2021 1:50:47)
+✔ chat entre cliente-servidor @done (11/5/2021 20:53:28)
+☐ chat entre cliente-cliente
+☐ chat entre cliente-todos los clientes
+☐ Bug: dos sesiones misma ip, diferente nombre en el servidor (con misma ip) @critical 
+✔ revisar que clientes estan desconectados y cerrar conexion @done (11/5/2021 20:53:59)
+✔ input de consola para comandos cliente: linea 47,53 @critical @done (11/5/2021 20:14:51)
+✔ Bug: getopt -m cuando pongo un mensaje con espacio corta porque lo toma como arg, cambiar eso @done (13/5/2021 22:24:34)
+☐ hacer salas de chat
+
+
+

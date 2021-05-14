@@ -1,0 +1,28 @@
+###### SERVIDOR ########3
+#CORREGIDO
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "C:\users\aleja\appdata\local\programs\python\python38-32\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\users\aleja\appdata\local\programs\python\python38-32\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:/Users/Aleja/Documents/elbackend/network/chat/server.py", line 69, in manejo_cliente
+    longitud_msg = cliente.recv(HEADER)
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+
+######### CLIENTE ########
+#CORREGIDO
+Traceback (most recent call last):
+  File "C:\Users\Aleja\Documents\elbackend\network\chat\cliente.py", line 40, in <module>
+    enviar_msg(msg)
+  File "C:\Users\Aleja\Documents\elbackend\network\chat\cliente.py", line 20, in enviar_msg
+    cliente.send(envia_long)
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+
+#CORREGIDO
+Traceback (most recent call last):
+  File "C:\Users\Aleja\Documents\elbackend\network\chat\cliente.py", line 35, in <module>
+    conectar()
+  File "C:\Users\Aleja\Documents\elbackend\network\chat\cliente.py", line 13, in conectar
+    conexion = cliente.connect(ADDRESS)
+ConnectionRefusedError: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión

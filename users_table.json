@@ -1,0 +1,13 @@
+{
+    "info": "users-info",
+    "users": [
+        {
+            "name": "AD",
+            "addr": "0"
+        },
+        {
+            "name": "san",
+            "addr": "192.168.0.13"
+        }
+    ]
+}
